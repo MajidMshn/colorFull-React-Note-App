@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.noteContainer {
+    width: 90%;
+
+    margin: 20px auto;
+    text-align: center;
+
+
+}
+
+.formOptions {
+    display: block;
+    flex-direction: column;
+    box-shadow: 0 0 5px #000;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.formOptions div {
+    width: 100%;
+    flex-wrap: 1;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 90%;
+    font-size: 22px;
+    padding: 12px 16px;
+    margin: 10px;
+}
+
+.formColors {
+    text-align: left;
+
+    padding-left: 30px;
+}
+
+.formColors button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    box-shadow: 0 0 2px #000;
+}
+
+.formButtons {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.formButtons button {
+    border-radius: 8px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.add-btn {
+    border-color: blue;
+    color: blue;
+}
+
+.del-btn {
+    border-color: red;
+    color: red;
+}
+
+.formButtons button {
+
+    font-size: 25px;
+    background: none;
+    margin: 5px;
+}
+
+.card-container {
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-item {
+    box-shadow: 0 0 5px #000;
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    flex-shrink: none;
+    flex-grow: none;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 15px 17px;
+    justify-content: center;
+    align-items: center;
+
+}
